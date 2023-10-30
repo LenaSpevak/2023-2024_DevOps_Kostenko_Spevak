@@ -3,7 +3,7 @@
 #### Course: Cloud Systems and Services
 #### Year: 2023/2024
 #### Group: K34212
-#### Authors: Kostenko Darina Alekseevna & Spevak Elena Aleksandrovna
+#### Authors: Kostenko Darina Alekseevna & Spevak Elena Aleksandrovna & Guseynov Guseyn
 #### Lab: Lab1
 
 # **Отчёт по лабораторной работе №1**

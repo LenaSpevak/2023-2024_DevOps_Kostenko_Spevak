@@ -13,10 +13,10 @@
 
 **Ход работы:**
 
-При выполнении работы будут созданы контейнеры для для запуска сервиса nginx с указанной web-страницей (с данным файлом [index.html](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Dockerfiles/index.html)).
+При выполнении работы будут созданы контейнеры для для запуска сервиса nginx с указанной web-страницей (с данным файлом [index.html](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Files/index.html)).
 
 
-1. Плохой [Dockerfile](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Dockerfiles/bad_example.dockerfile)
+1. Плохой [Dockerfile](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Files/bad_example.dockerfile)
 
 ```
 FROM ubuntu:latest
@@ -53,7 +53,7 @@ docker run --name bad_container -p 8081:80 bad_image
 ![Работа первого контейнера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/result.jpg)
 
 
-2. Хороший Dockerfile
+2. Хороший [Dockerfile](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Files/good_example.dockerfile)
 
 ```
 FROM nginx:1.21.1

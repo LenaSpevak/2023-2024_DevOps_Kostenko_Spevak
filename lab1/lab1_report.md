@@ -36,7 +36,7 @@ docker run --name bad_container -p 8081:80 bad_image
 
 В результате на localhost был получен слеующий результат:
 
-[Работа первого контейнера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/result.jpg)
+![Работа первого контейнера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/result.jpg)
 
 
 В результате исправлений ошибок был написан [хороший Dockerfile](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/Dockerfiles/good_example.dockerfile).
@@ -50,11 +50,11 @@ docker run --name good_container -p 8082:80 good_image
 
 Этот контейнер тоже работает, реузльта его работы проиллюстрирован ниже.
 
-[Работа второго контейнера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/result2.jpg)
+![Работа второго контейнера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/result2.jpg)
 
 При сравнении контейнеров видно, что первый(плохой) контейнер имеет сущесвтенно больший вес.
 
-[Сравнение контейнеров](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/containers.jpg)
+![Сравнение контейнеров](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak/blob/main/lab1/screenshots/containers.jpg)
 
 **Вывод** 
 Были изучены bad practice при написании Dockerfile и созданы два файла: с ошибками и с их справлением. В результате были запущены два контейнера для поднятия nginx сервера.

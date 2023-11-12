@@ -92,7 +92,7 @@ spec:
     app: lab2
 ```
 
-Для того, чтобы контейнер hello-world  был доступным вне вирутальной сети Kubernetes, сервис имеет тип LoadBalancer. В этом файле так же указан порт, по которому этот сервис доступен.
+Для того, чтобы сервис lab2  был доступным вне вирутальной сети Kubernetes, сервис имеет тип LoadBalancer. В этом файле также указан порт, по которому этот сервис доступен.
 
 ![creating](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/screenshots/service%20creating.png)
 

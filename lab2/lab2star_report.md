@@ -99,5 +99,5 @@ minikube tunnel
 
 ![Сертификат](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/%20screenshots%20star/certificate.png)
 
-
+Почему браузер ругается на наш самоподписанный сертификат?
 

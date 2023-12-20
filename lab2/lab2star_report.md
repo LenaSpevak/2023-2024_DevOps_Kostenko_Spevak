@@ -73,7 +73,7 @@ kubectl apply -f ingress.yml
 
 После этого была произведена проверка установки Ip-адреса:
 
-![Полученный Ingress Ip]()
+![Полученный Ingress Ip](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/%20screenshots%20star/ingress%20ip.png)
 
 4. Добавление записи в файл hosts
 

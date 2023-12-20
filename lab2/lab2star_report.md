@@ -46,8 +46,6 @@ kubectl create secret tls secret-tls --cert certificate.crt --key privateKey.key
 
 ![Создание секрета](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/%20screenshots%20star/creating%20secret2.png)
 
-Файл [service.yml]() был немного изменен - в него были внесены данные об использования секрета.
-
 3. Ingress расширения
 
 Данное расширение разрешает внешний доступ к сервисам в кластере.
@@ -63,7 +61,7 @@ minikube addons enable ingress
 
 ![Проверка подов контроллера](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/%20screenshots%20star/get%20pods%20ingress.png)
 
-После проверки работы подов контроллера Ingress, был создан [файл](), который разрешит доступ к сервису по доменному имени, в нашем случае hello-world.lab2. 
+После проверки работы подов контроллера Ingress, был создан [файл](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab2/files%20star/ingress.yml), который разрешит доступ к сервису по доменному имени, в нашем случае hello-world.lab2. 
 
 После создания файл был добавлен с помощью комнады
 

@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: hello-world
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lab2
+  template:
+    metadata:
+      labels:
+        app: lab2
+    spec:
+      containers:
+      - name: hello-world
+        image: strm/helloworld-http
+        ports:
+                - containerPort: 80
+
+

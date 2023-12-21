@@ -1,0 +1,34 @@
+name: Publish to dockerhub
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "lab3/**"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-22.04
+
+    defaults:
+      run:
+        working-directory: "/lab3/files"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: DH login
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
+
+      - name: Build and push to DH
+        uses: docker/build-push-action@v5
+        with:
+          context: ./lab3/files/
+          push: true
+          tags: guseynovgm/lab3:lab3 , guseynovgm/lab3:latest

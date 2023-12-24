@@ -39,7 +39,7 @@ kubectl expose service prometheus-server --type=NodePort --target-port=9090 --na
 
 В браузере откроется web-интерфейс Prometheus, а именно Status-Targets:
 
-![]([lab4\screenshots\prometheus-target.png](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab4/screenshots/prometheus-target.png))
+![](https://github.com/LenaSpevak/2023-2024_DevOps_Kostenko_Spevak_Guseynov/blob/main/lab4/screenshots/prometheus-target.png)git add
 
 Во-вторых, устанавливаем Grafana:
 
